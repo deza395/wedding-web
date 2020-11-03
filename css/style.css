@@ -1,0 +1,563 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+  
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight:400;
+    overflow-x: hidden;
+  /*    background-image: url('../img/home/2.jpeg'); */
+    
+    
+}
+                             
+.nav-link{
+    color: #fff !important;
+    padding-right: 20px !important;
+    
+    text-transform: uppercase;
+    
+    
+}
+.bgcolor.scrolled{
+    background: rgba(10,10,10,0.98) !important;
+}
+.nav-link:hover{
+    border-bottom: 2px solid  #ff4545 !important;
+    
+  }
+
+.navbar-toggler{
+    border-color:#ff4545 !important;
+}
+ .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,69,69, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  }
+
+/* cover-page */
+.cover-page{
+    width: 100%;
+    height:100%;
+    padding:0 , 0, 20px, 0;
+    margin: 0;
+ 
+
+}
+.cover{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/home/4.jpg');
+    background-size:cover;
+}
+canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  
+    background: rgba(0,0,0,0.7);
+}
+.presentation{
+    
+    height:100vh;  
+    width: 100%;
+    display: table;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.title{
+  
+   display: table-cell;
+   vertical-align: middle;
+   text-align: center;
+   margin: auto;
+   color: #ffffff
+}
+.title h1{
+    font-size: 6.6em;
+    font-weight: 700;
+    font-family: 'Great Vibes', cursive;
+}
+.title span{
+    color: #ff4545;
+}
+
+.title h3{
+    font-size:3em;
+    font-family: 'Charmonman', cursive;
+    color: #ff4545;
+}
+
+.title h4{
+    font-size: 2em; 
+    color: #ffffff;
+    margin: 0;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+/* COUPLE */
+.title-couple{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Charmonman', cursive ;
+
+}
+.title-couple h3{
+    font-size: 50px;
+    font-weight: 900;
+}
+.he ,.she{
+    padding: 0 !important;
+    
+}
+.img-he , .img-she{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+   
+}
+.img-he img,.img-she img{
+    width: 100%;
+}
+
+
+.socials  a  {
+    width: 40px;
+    height: 40px;
+    background-color: #ff4545;  
+    border-radius: 50%;
+    display: inline-block;
+    border-radius: 50%;
+}
+.socials:hover{
+    scale: 1.2%;
+}
+.socials a i {
+    color: #fff;
+    padding: 10px 12px;
+    font-size: 20px;    
+}
+.description-he, .description-she{
+    background-image: url(../images/couple/papyrus.png);
+    margin: 0;
+    padding: 50px 35px;
+}
+.description-he h6, .description-she h6{
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+.description-he p, .description-she p{
+    font-size: 17px;
+    padding:10px 0;
+    margin-bottom: 20px;
+    font-family: poppins;
+    columns: #333333;
+}
+
+.line{
+    border: 2px dashed #ddd;
+    margin: 50px 0;
+}
+
+/* TIMER */
+.countdown, .family-phrases{
+    background: url(../images/home/hero2.jpg); /*--edit--*/
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+    
+    
+    
+}
+
+.title-count h3{
+    font-family: 'Charmonman', cursive;
+    font-weight: bolder;
+    text-align: center;
+    padding: 70px 0 0 0;
+    font-size: 45px;
+    margin-top:60px;
+    color:#fff;
+    letter-spacing: 5px;
+    
+
+}
+.timer{
+    text-align: center;
+ 
+    margin: auto;
+    width: 100%;
+}
+
+.timer .countd{
+    display: inline-block;
+     text-align: center;
+     margin: auto;
+     padding: 10px;
+     font-family: poppins;
+     color:#fff;
+     font-size: 17px;
+     letter-spacing: 1.2px;
+}
+
+.countd span{
+    display:block;
+    font-size: 60px;
+    font-weight: 300;
+    padding-bottom: 7px;
+    color: #ff4545;
+    font-family: poppins;
+}
+
+
+/* EVENTS CEREMONY AND PARTY */
+.title-event, .title-gallery{
+   text-align: center;
+   padding-bottom: 50px ;  
+}
+
+.title-event h2 , .title-gallery h2{
+    font-family: 'Charmonman', cursive;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+.event{
+    background-color: #f6f4f2;
+    padding: 60px 0;
+}
+.border-ceremony, .border-party{
+    background-color: #fff; 
+}
+
+.img-ceremony, .img-party{
+   max-width:100%;    
+}
+
+.img-ceremony img, .img-party img{
+    width: 100%;
+}
+
+.borde-img{
+    width: 55px;
+    height: 55px;
+    background-color: #ff4545;
+    border-radius: 50%;
+    display: inline-block;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 50%; 
+    top:-27px;
+    margin-left:-30px;    
+}
+
+.borde-img i {
+    color: #fff;
+    position: relative;
+    font-size: 28px;
+    margin-top:26%;
+    margin-left: 2%;    
+}
+
+
+.content-ceremony, .content-party{
+    margin:30px 20px;
+    padding:40px 30px;
+    text-align: center;
+}
+
+.content-ceremony h4 {
+   
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.content-ceremony .text-ceremony{
+    padding: 20px;
+    color: #888;
+    font-family: Georgia,Times,"Times New Roman",serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 25px;
+}
+
+.content-ceremony .data-ceremony{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    
+    text-transform: uppercase;
+    font-size:15px;
+}
+
+.map-event {
+    width: 200px;
+    background-color:#ff4545;
+    padding: 10px;
+    border-radius: 30px;
+    margin:auto;
+    
+}
+.map-event a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+
+}
+
+/* TESTIMONIALS */
+.title-testimonial{
+   padding-top:50px;
+   color: white;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.title-testimonial h3{
+    margin: 0 0 10px;
+    font-family: 'Charmonman', cursive;
+    font-size: 40px;
+    line-height: 1.8;
+    font-weight: 100;
+    padding-bottom:20px;
+}
+ .slider-area{
+     padding:50px 0;
+
+ }
+
+ .img-area{
+     width: 100px;
+     height: 100px;
+     margin: 20px auto;
+     border: 2px solid white;
+     border-radius: 50%;
+     overflow: hidden;
+     
+ }
+.img-area img{
+    width: 100%;
+}
+
+.carousel-caption{
+    position: static;
+    padding:25px;   
+    max-width: 900px;
+    margin: auto;
+}
+
+.carousel-caption p{
+    width: 90%;
+    font-size: 17px;
+    margin: 10px auto;
+    color: #fff;
+    line-height: 35px;
+    font-family: 'Charmonman', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;  
+}
+
+.carousel-caption h5{
+    color: #ff4545;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;  
+}
+
+.carousel-caption h6{
+    margin: 10px auto 50px auto;
+}
+
+/* GALLERY */
+
+.gallery-container{
+    width: 80%;
+    margin: 40px auto;
+    margin-bottom: 0 !important;
+    
+}
+
+.border-gallery{
+    margin: 0 !important;
+    padding:0 !important;
+    
+}
+
+.gallery-card a{
+    width: 100%;
+    height: 300px    
+}
+
+.gallery-card a > img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: rgba(0,0,0,0.9);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    cursor: crosshair;
+}
+
+.overlay .overlay-inner {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+}
+
+.overlay .overlay-inner h4 {
+    color: #ff4545!important;
+    margin-bottom: 0!important;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: 'Charmonman', cursive;
+}
+
+.overlay .overlay-inner p {
+    color: #fff;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.gallery-card:hover .overlay .overlay-inner h4 {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.gallery-card:hover .overlay .overlay-inner p {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.gallery-card a:hover .overlay {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+
+/* FORM */
+.title-form h3{
+    font-family: 'Great Vibes', cursive;;
+    font-size: 50px;
+    color: black;
+    padding-bottom: 10px;
+   
+}
+.form-wedding{  
+    padding: 0px 0;
+    margin: 0;
+}
+.container-form{
+    margin: auto;
+    padding: 30px 5px;
+    -webkit-box-shadow: 4px 7px 16px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 7px 16px -2px rgba(0,0,0,0.75);
+    box-shadow: 4px 7px 16px -2px rgba(0,0,0,0.75);
+    max-width: 700px;
+    background-color:white;
+}
+
+form{
+   padding: 25px;
+   font-family: Georgia,Times,"Times New Roman",serif;
+   font-size:14px;
+   
+}
+label{
+    font-style: italic;
+    font-family: Georgia,Times,"Times New Roman",serif;
+    font-size:17px;
+    color:#888;
+    width: 100%;
+
+}
+#name,#surname,#email,#prefer-food,#notes{
+    width: 100%;
+    height: 35px;
+    border: 1px solid rgba(255, 69,69, 0.5) ;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#submit{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    color:white;
+    background-color: rgb(255,69,69);
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: italic;
+    border-radius: 5px;
+    
+}
+
+.footer{
+    background-color: black;
+    padding:90px;
+    margin-top: 50px;  
+}
+
+h3{
+    font-family: 'Charmonman', cursive;   
+    font-size: 50px;
+    color: white;
+}
+
+.text-footer p{
+    font-size: 20px;
+    color: white;
+}
+
+@media screen and (max-width:760px){  
+
+  .nav-link{
+   text-align: center;
+   margin: auto;
+   padding: 30px;
+   background: rgba(10,10,10,0.98);
+  }
+  .nav-link:hover{
+      color: rgb(255,69,69) !important;
+      border-bottom: hidden !important;
+     
+  }
+
+
+}
